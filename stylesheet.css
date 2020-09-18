@@ -41,6 +41,8 @@
   color: white;
   text-align: center;
   font-size: 6vw;
+  font-family: 'Vollkorn', serif;
+  margin: 0;
  
 }
 
@@ -54,6 +56,7 @@
   color: rgb(143,115,86);
   font-size: 1.5vw;
   width: 50vw;
+  font-family: sans-serif;
 
 }
 
@@ -68,6 +71,8 @@
   color:  rgb(242,185,194);
   text-align: center;
   font-size: 70px;
+  font-family: 'Vollkorn', serif;
+  margin: 0;
 }
 
 .skill_main{
@@ -76,6 +81,7 @@
   padding: 0 200px 0 200px;
   min-width: 880px;
   margin: auto;
+  font-family: sans-serif;
 }
 
 .article {
