@@ -1,0 +1,116 @@
+.header ul{
+  display: flex;
+  justify-content: space-around;
+  position: fixed;
+  width: 100%;
+}
+
+
+.header a{
+  text-decoration: none;
+  color: rgb(224,122,246);
+  width: 100%;
+}
+
+.header li{
+  list-style: none;
+}
+
+.top_img{
+  
+}
+
+.top{
+  height: 100vh;
+  margin:0;
+  padding:0;
+  margin-left: auto;  
+  margin-right: auto;
+  
+  background-color: rgb(242,243,237);
+}
+
+.about{
+  height: 100vh;
+  margin:0;
+  padding:0;
+  background-color: rgb(242,185,194);
+  
+}
+.about_title{
+  color: white;
+  text-align: center;
+  font-size: 6vw;
+ 
+}
+
+.about_img{
+  float: right;
+  padding-right: 50px;
+  height: 1px;
+}
+
+.about_main{
+  color: rgb(143,115,86);
+  font-size: 1.5vw;
+  width: 50vw;
+
+}
+
+.skill{
+  height: 100vh;
+  margin:0;
+  padding:0;
+  background-color: rgb(242,243,237);
+}
+
+.skill_title{
+  color:  rgb(242,185,194);
+  text-align: center;
+  font-size: 70px;
+}
+
+.skill_main{
+  color: rgb(143,115,86);
+  width: 70%;
+  padding: 0 200px 0 200px;
+  min-width: 880px;
+  margin: auto;
+}
+
+.article {
+  width: 600px;
+  margin: auto;
+  background-color: #fff;
+  display: flex;
+  margin-bottom: 20px ;
+  border-radius: 5px;
+  overflow: hidden;
+}
+
+.article-image {
+  height: 100px;
+  width: 100px;
+  background-color: #eee;
+}
+
+.article-image .image {
+  width: 80px;
+  height: 80px;
+  background-color: #fff;
+  border-radius: 5px;
+  margin: 10px auto;
+   
+  transition: 10s;          
+}
+
+.article-image .image:hover {
+  transform: rotate(360deg);  /* マウスオーバー時に回転 */
+}
+
+.article-text {
+  height: 80px;
+  width: 500px;
+  background-color:#fff;
+  padding: 10px;
+}
