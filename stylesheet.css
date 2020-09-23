@@ -51,6 +51,12 @@
   padding-right: 50px;
   height: 1px;
 }
+@media screen and ( max-width:479px ){
+	
+  .about_img{
+		width: 150px ;		/* 横幅 */
+	}
+}
 
 .about_main{
   color: rgb(143,115,86);
