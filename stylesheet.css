@@ -46,26 +46,25 @@
  
 }
 
-.about_img{
-  float: right;
-  width: 40%
-  height:auto;
-  
-}
-@media screen and ( max-width:479px ){
-	
-  .about_img{
-    float: right;
-		width: 100% ;		/* 横幅 */
-	}
-}
-
 .about_main{
+  height: 500px;
+  width: 355px;
+  background-color: rgb(242,185,194);
+  padding: 26px;
+  margin: 18px;
+  margin-bottom: 20px ;
+  border-radius: 5px;
+  overflow: hidden;
   color: rgb(143,115,86);
   font-size: 130%;
   
   font-family: sans-serif;
 
+}
+
+.about_img{
+  float: right;
+  width: 40%
 }
 
 .skill{
@@ -95,38 +94,38 @@
 }
 
 .article {
-  width: 600px;
+  
   margin: auto;
   background-color: #fff;
   display: flex;
   margin-bottom: 20px ;
   border-radius: 5px;
   overflow: hidden;
-  .article-image {
-    height: 100px;
-    width: 100px;
-    background-color: #eee;
-  }
-  
-  .article-image .image {
-    width: 80px;
-    height: 80px;
-    background-color: #fff;
-    border-radius: 5px;
-    margin: 10px auto;
-     
-    transition: 10s;          
-  }
-  
-  .article-image .image:hover {
-    transform: rotate(360deg);  /* マウスオーバー時に回転 */
-  }
-  
-  .article-text {
-    height: 80px;
-    width: 500px;
-    background-color:#fff;
-    padding: 10px;
-  }
-  
+}
+
+.article-image {
+  height: 100px;
+  width: 100px;
+  background-color: #eee;
+}
+
+.article-image .image {
+  width: 80px;
+  height: 80px;
+  background-color: #fff;
+  border-radius: 5px;
+  margin: 10px auto;
+   
+  transition: 10s;          
+}
+
+.article-image .image:hover {
+  transform: rotate(360deg);  /* マウスオーバー時に回転 */
+}
+
+.article-text {
+  height: 80px;
+  width: 500px;
+  background-color:#fff;
+  padding: 10px;
 }
