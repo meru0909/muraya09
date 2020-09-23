@@ -48,8 +48,9 @@
 
 .about_img{
   float: right;
-  padding-right: 50px;
-  height: 1px;
+  width: 40%
+  height:auto;
+  
 }
 @media screen and ( max-width:479px ){
 	
@@ -73,6 +74,7 @@
   margin:0;
   padding:0;
   background-color: rgb(242,243,237);
+  
 }
 
 .skill_title{
@@ -100,31 +102,31 @@
   margin-bottom: 20px ;
   border-radius: 5px;
   overflow: hidden;
-}
-
-.article-image {
-  height: 100px;
-  width: 100px;
-  background-color: #eee;
-}
-
-.article-image .image {
-  width: 80px;
-  height: 80px;
-  background-color: #fff;
-  border-radius: 5px;
-  margin: 10px auto;
-   
-  transition: 10s;          
-}
-
-.article-image .image:hover {
-  transform: rotate(360deg);  /* マウスオーバー時に回転 */
-}
-
-.article-text {
-  height: 80px;
-  width: 500px;
-  background-color:#fff;
-  padding: 10px;
+  .article-image {
+    height: 100px;
+    width: 100px;
+    background-color: #eee;
+  }
+  
+  .article-image .image {
+    width: 80px;
+    height: 80px;
+    background-color: #fff;
+    border-radius: 5px;
+    margin: 10px auto;
+     
+    transition: 10s;          
+  }
+  
+  .article-image .image:hover {
+    transform: rotate(360deg);  /* マウスオーバー時に回転 */
+  }
+  
+  .article-text {
+    height: 80px;
+    width: 500px;
+    background-color:#fff;
+    padding: 10px;
+  }
+  
 }
