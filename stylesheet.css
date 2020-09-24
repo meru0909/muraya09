@@ -28,7 +28,7 @@
   
   background-color: rgb(242,243,237);
 }
-@media (max-width: 767px) { #css{width:auto;} }
+
 
 .about{
   margin:0;
@@ -50,6 +50,12 @@
   font-size: 500%;
   font-family: 'Vollkorn', serif;
   margin: 0;
+  max-width: 1920px;
+  
+  @media screen and (max-width: 768px) {
+    margin:auto;
+    text-align: center;
+  }
  
 }
 
@@ -83,7 +89,13 @@
   margin:0;
   padding:0;
   background-color: rgb(242,243,237);
+  max-width: 1920px;
   
+  @media screen and (max-width: 768px) {
+    background-color: rgb(242,243,237);
+    margin:auto;
+    padding: auto;
+  }
 }
 
 .skill_title{
@@ -92,6 +104,13 @@
   font-size: 500%;
   font-family: 'Vollkorn', serif;
   margin: 0;
+  max-width: 1920px;
+  
+  @media screen and (max-width: 768px) {
+    text-align: center;
+    margin:auto;
+    
+  }
 }
 
 .skill_main{
