@@ -67,6 +67,8 @@
 .about_img{
   float: right;
   width: 40%
+  max-width : 100% ;
+  height : auto ;
 
   
 }
@@ -133,4 +135,5 @@
   background-color:#fff;
   padding: 4px;
 }
+
 
