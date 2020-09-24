@@ -31,15 +31,16 @@
 @media (max-width: 767px) { #css{width:auto;} }
 
 .about{
-  height: 100%;
+  width: 100%;
+  max-width: 1280px;
   margin:0;
   padding:0;
   background-color: rgb(242,185,194);
-  
+  @media screen and (max-width: 479px) {
+    background-color: rgb(242,185,194);
+  }
 }
-@media screen and (max-width: 479px) {
-  background-color: rgb(242,185,194);
-}
+
 .about_title{
   color: white;
   text-align: center;
