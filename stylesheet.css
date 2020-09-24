@@ -31,13 +31,16 @@
 @media (max-width: 767px) { #css{width:auto;} }
 
 .about{
-  width: 100%;
-  max-width: 1280px;
   margin:0;
   padding:0;
   background-color: rgb(242,185,194);
-  @media screen and (max-width: 479px) {
+  width: 100%;
+  max-width: 1920px;
+  
+  @media screen and (max-width: 768px) {
     background-color: rgb(242,185,194);
+    margin:auto;
+    padding: auto;
   }
 }
 
