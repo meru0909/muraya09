@@ -28,6 +28,7 @@
   
   background-color: rgb(242,243,237);
 }
+@media (max-width: 767px) { #css{width:auto;} }
 
 .about{
   height: 100%;
