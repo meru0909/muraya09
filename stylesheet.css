@@ -36,6 +36,7 @@
   background-color: rgb(242,185,194);
   width: 100%;
   max-width: 1920px;
+  min-width:1000px;
   
   @media screen and (max-width: 768px) {
     background-color: rgb(242,185,194);
@@ -50,9 +51,9 @@
   font-size: 500%;
   font-family: 'Vollkorn', serif;
   margin: 0;
-  max-width: 1920px;
+
   
-  @media screen and (max-width: 768px) {
+  @media (max-width: 768px) {
     margin:auto;
     text-align: center;
   }
@@ -72,7 +73,7 @@
   font-size: 130%;
   
   font-family: sans-serif;
-
+  max-width: 1920px;
 }
 
 .about_img{
