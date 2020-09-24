@@ -115,11 +115,16 @@
 
 .skill_main{
   color: rgb(143,115,86);
-  width: 70%;
   padding: 0 200px 0 200px;
   min-width: 500px;
   margin: auto;
   font-family: sans-serif;
+  max-width: 1920px;
+  @media screen and (max-width: 768px) {
+    padding: 0 20px 0 20px;
+    margin:auto;
+    
+  }
 }
 
 .article {
@@ -130,6 +135,13 @@
   margin-bottom: 10px ;
   border-radius: 5px;
   overflow: hidden;
+  max-width: 1920px;
+  
+  @media screen and (max-width: 768px) {
+    text-align: center;
+    margin:auto;
+    
+  }
 }
 
 .article-image {
